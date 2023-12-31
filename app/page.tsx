@@ -1,11 +1,13 @@
-import Image from 'next/image'
+import { Camp, Features, GetApp, Guide, Hero } from '@/components'
 
 export default function Home() {
   return (
     <>
-      <div>
-        home
-      </div>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
     </>
   )
 }
