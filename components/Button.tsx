@@ -1,11 +1,5 @@
+import { ButtonProps } from "@/utils";
 import Image from "next/image";
-
-type ButtonProps = {
-  type: 'button' | 'submit'
-  label: string
-  icon?: string
-  variant?: 'btn_dark_green' | 'btn_light_green'
-}
 
 const Button = ({ type, label, icon, variant }: ButtonProps) => {
   return (
