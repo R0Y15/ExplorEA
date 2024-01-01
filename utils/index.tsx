@@ -3,6 +3,12 @@ export type ButtonProps = {
     label: string
     icon?: string
     variant?: string
+    full?: boolean
+}
+
+export type FooterColumnProps = {
+    title: string;
+    children: React.ReactNode;
 }
 
 export interface CampProps {
@@ -10,4 +16,11 @@ export interface CampProps {
     title?: string
     subtitle?: string
     poeple?: string
+}
+
+export interface FeatureItemProps {
+    title: string;
+    icon: string;
+    variant: string;
+    desc: string;
 }
