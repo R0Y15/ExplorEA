@@ -62,15 +62,15 @@ export const NAV_LINKS = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking ExplorEA', 'ExplorEA kinthill'],
+      links: ['Climbers', 'Hiking ExplorEA', 'ExplorEA kinthill'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'ExplorEA@akinthil.com' },
+      { label: 'Phone: ', value: '+91 9534316002' },
+      { label: 'Email: ', value: 'bishalroy15jan@gmail.com' },
     ],
   };
   

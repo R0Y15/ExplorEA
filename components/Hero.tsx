@@ -13,18 +13,18 @@ const Hero = () => {
           alt='camp'
           width={50}
           height={50}
-          className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
+          className='absolute left-[-5px] top-[-25px] w-10 lg:w-[50px]'
         />
 
-        <h1 className='bold-52 lg:bold-88'>Putuk Truno Camp Area</h1>
+        <h1 className='bold-52 lg:bold-88'>Sangla Valley Camping</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the
-          satisfaction of seeing the incorruptible beauty of nature. We
-          can help you on an adventure around the world in just one app.
+          Sangla valley is an alluring valley in the Trans-Himalayan region and is a hotspot for tourists.
+          It is a sought after place during the summers when the valley comes alive with tourists visiting from all parts of the world.
+          Hidden away in the Himalayan region this is one picturesque valley which is untouched by the pollution of the big cities.
         </p>
 
         <div className="my-11 flex flex-wrap gp-5">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center ">
             {Array(5).fill(1).map((_, index) => (
               <Image
                 src={'/star.svg'}
@@ -36,7 +36,7 @@ const Hero = () => {
             ))}
           </div>
 
-          <p className='bolg-16 lg:bold-20 text-blue-70 ml-3'> 198k
+          <p className='bolg-16 lg:bold-20 text-blue-70 ml-3'> 145k
             <span className='regular-16 lg:regular-20 ml-1.5'>Excellent Reviews</span>
           </p>
         </div>
@@ -70,17 +70,17 @@ const Hero = () => {
                 height={32}
               />
             </div>
-            <p className="bold-20 text-white">Aguassa</p>
+            <p className="bold-20 text-white">Sangla Valley</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
               <p className='regular-16 text-gray-20 block '>Distance</p>
-              <p className='bold-20 text-white'>173.28 Km</p>
+              <p className='bold-20 text-white'>213.25 Km</p>
             </div>
             <div className="flex flex-col">
               <p className='regular-16 text-gray-20 block '>Elevation</p>
-              <p className='bold-20 text-white'>2 Km</p>
+              <p className='bold-20 text-white'>8900 ft</p>
             </div>
           </div>
 

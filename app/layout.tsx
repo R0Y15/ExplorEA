@@ -4,7 +4,7 @@ import { Footer, Navbar } from '@/components';
 
 
 export const metadata: Metadata = {
-  title: 'ExplorA',
+  title: 'ExplorEA',
   description: 'Exploration Made Easy. Think-Click-Fly that simple',
 }
 
