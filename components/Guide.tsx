@@ -17,7 +17,7 @@ const Guide = () => {
             Guide You to Easy Path
           </h2>
           <p className='regular-16 text-gray-30 xl:max-w-[520px] ml-[20px] mt-[10px] text-justify'>
-            Only with the hilink application you will no longer get
+            Only with the explorea application you will no longer get
             lost and get lost again, because we already support offline
             maps when there is no internet connection in the field.
             Invite your friends, relatives and friends to have fun in
@@ -28,11 +28,11 @@ const Guide = () => {
       </div>
       <div className="flexCenter max-container relative w-full">
         <Image
-          src={'/boat.png'}
+          src={'/trek.jpg'}
           alt='boat'
           width={1440}
           height={580}
-          className='w-full object-cover object-center 2xl:rounded-5xl'
+          className='w-full object-cover object-center 2xl:rounded-5xl max-h-[576px]'
         />
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20 w-[300px] h-[215px]">
@@ -47,14 +47,14 @@ const Guide = () => {
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full gap-3">
                 <p className='regular-16 text-gray-20'>Destination</p>
-                <p className='bold-16 text-green-50'>48 mins</p>
+                <p className='bold-16 text-green-50'>24 Km</p>
               </div>
-              <p className='bold-20 mt-2'>Aguas</p>
+              <p className='bold-20 mt-2'>Sangla Valley</p>
             </div>
 
             <div className="flex w-full flex-col">
               <p className='regular-16 text-gray-20'>Location</p>
-              <h4 className='bold-20 mt-2 whitespace-nowrap'>hakunamatata</h4>
+              <h4 className='bold-20 mt-2 whitespace-nowrap'>Village Sangla</h4>
             </div>
           </div>
         </div>

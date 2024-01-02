@@ -49,41 +49,41 @@ const CampSite = ({ backgroundImage, title, subtitle, poeple }: CampProps) => {
 const Camp = () => {
   return (
     <section className='relative 2xl:max-container fex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20'>
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] rounded-5xl">
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Trekking aati hai kya"
-          subtitle="Chal Chal Ave"
+          title="Tso Moriri Lake"
+          subtitle="Ladakh, India"
           poeple="50+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Darbhanga Track"
-          subtitle="Kya Krega Jaa kr"
+          title="Camp Exotica"
+          subtitle="Kullu"
           poeple="70+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-3"
-          title="Darbhanga Track"
-          subtitle="Kya Krega Jaa kr"
+          title="Camp Room on the Roof"
+          subtitle="Dehradun"
           poeple="70+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-4"
-          title="Darbhanga Track"
-          subtitle="Kya Krega Jaa kr"
+          title="Rishikesh Valley camp"
+          subtitle="Rishikesh"
           poeple="70+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-5"
-          title="Darbhanga Track"
-          subtitle="Kya Krega Jaa kr"
+          title="Kipling Camp"
+          subtitle="Madhya Pradesh"
           poeple="70+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-6"
-          title="Darbhanga Track"
-          subtitle="Kya Krega Jaa kr"
+          title="West Ladakh Camp"
+          subtitle="Ladakh"
           poeple="70+ Joined"
         />
 
@@ -92,14 +92,12 @@ const Camp = () => {
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="relative w-full overflow-hidden rounded-3xl bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20">
           <h2 className='regular-24 md:regular-32 2xl:regular-64 capitalize text-white'>
-            <strong>Feeling Lost?</strong> to gand marao fir
+            <strong>Feeling Lost?</strong> <br /> We're Here To Help
           </h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Shot Tae gM el Leo gee |e |
-            new climbing location, the possibility of getting lost is
-            very large. That's why we are here for those of you who
-            want to start an adventure but are afraid of getting lost.
+          <p className="regular-20 xl:regular-22 mt-[20px] text-white">
+            It's not the mountain we conquer, but ourselves
           </p>
+          <p className='relative regular-14 mt-[5px] xl:regular-16 text-white text-end right-[160px]'>- Sir Edmund Hillary</p>
           <Image
             src={'/quote.svg'}
             alt='quote'
