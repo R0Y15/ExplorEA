@@ -14,7 +14,7 @@ Exploration Made Easy. Think-Click-Fly that simple to explore the world. Explore
 
 ## Full Site ScreenShot
 <p align='center'>
-<img alt="Full page" src="https://i.ibb.co/Fm76R8c/screencapture-localhost-3000-2024-01-02-19-48-56.png" />
+<img alt="Full page" src="https://raw.githubusercontent.com/R0Y15/ExplorEA/master/public/full-page.png?token=GHSAT0AAAAAACKADB2WTVO67ZBVMG526WH6ZMUFUGA" />
 
 </p>
 
